@@ -1,0 +1,1 @@
+export default function Page() { return <h1 className="text-3xl font-bold text-center mt-20">Hello, Retrogade!</h1>; }
