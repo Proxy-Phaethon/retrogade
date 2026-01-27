@@ -1,3 +1,101 @@
 body {
-  background: #f5f5f5;
+  background: linear-gradient(to bottom, #F3E4CF, #F6EAD8);
+  color: #1e1e1e;
+  font-family: 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.secondary-text {
+  color: #555555;
+}
+
+* {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: 90px 1fr 300px;
+  gap: 24px;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.sidebar {
+  background: #F3E4CF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.main-content {
+  background: #FAEEDB;
+  padding: 24px;
+}
+
+.right-panel {
+  background: #FAEEDB;
+  padding: 24px;
+}
+
+.sidebar .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+.sidebar .nav-item.active {
+  color: #FF7A32;
+}
+
+.sidebar .nav-item .icon {
+  stroke: #000000;
+  margin-bottom: 4px;
+}
+
+.search-bar {
+  width: 100%;
+  background-color: #F5D84B;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.right-panel .profile-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-panel .profile-block img.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 0;
+  border: 1px solid #000;
+}
+
+.right-panel .profile-block .name {
+  font-weight: bold;
+}
+
+.right-panel .profile-block .role {
+  font-size: 0.9rem;
+  color: #555555;
 }

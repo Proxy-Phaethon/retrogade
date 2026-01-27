@@ -1,10 +1,5 @@
-[00:00:00.602] Server  LOG     ✓ Ready in 411ms
-[00:00:05.733] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
-[00:00:05.831] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
-[00:00:06.040] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
-[00:02:42.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:22.345] Server  LOG     ✓ Compiled in 17ms
-[00:06:07.770] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
+[00:00:00.582] Server  LOG     ✓ Ready in 395ms
+[00:00:10.839] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
 Module not found: Can't resolve '@/app/globals.css'
   1 | import type { ReactNode } from "react";
 > 2 | import "@/app/globals.css";
@@ -18,7 +13,7 @@ Module not found: Can't resolve '@/app/globals.css'
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:06:07.772] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
+[00:00:11.122] Browser ERROR   uncaughtError: Error: ./apps/web/src/app/layout.tsx:2:1
 Module not found: Can't resolve '@/app/globals.css'
   1 | import type { ReactNode } from "react";
 > 2 | import "@/app/globals.css";
@@ -32,36 +27,7 @@ Module not found: Can't resolve '@/app/globals.css'
 https://nextjs.org/docs/messages/module-not-found
 
 
-[00:06:07.772] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
-Module not found: Can't resolve '@/app/globals.css'
-  1 | import type { ReactNode } from "react";
-> 2 | import "@/app/globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function RootLayout({ children }: { children: ReactNode }) {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:07.773] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
-Module not found: Can't resolve '@/app/globals.css'
-  1 | import type { ReactNode } from "react";
-> 2 | import "@/app/globals.css";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  3 |
-  4 | export default function RootLayout({ children }: { children: ReactNode }) {
-  5 |   return (
-
-
-
-https://nextjs.org/docs/messages/module-not-found
-
-
-[00:06:07.805] Server  LOG     ✓ Compiled in 52ms
-[00:06:08.242] Browser ERROR   ./apps/web/src/app/layout.tsx:2:1
+[00:00:11.282] Browser ERROR   ./apps/web/src/app/layout.tsx:2:1
 Module not found: Can't resolve '@/app/globals.css'
   1 | import type { ReactNode } from "react";
 > 2 | import "@/app/globals.css";
@@ -71,3 +37,22 @@ Module not found: Can't resolve '@/app/globals.css'
   5 |   return (
 
 https://nextjs.org/docs/messages/module-not-found
+[00:00:11.788] Browser ERROR   ./apps/web/src/app/layout.tsx:2:1
+Module not found: Can't resolve '@/app/globals.css'
+  1 | import type { ReactNode } from "react";
+> 2 | import "@/app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function RootLayout({ children }: { children: ReactNode }) {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:45.137] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:49.649] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:41.820] Server  LOG     ✓ Compiled in 32ms
+[00:11:27.880] Server  LOG     ✓ Compiled in 4ms
+[00:11:30.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:51.514] Server  LOG     ✓ Compiled in 2ms
+[00:11:54.271] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:07.157] Server  LOG     ✓ Compiled in 1ms
+[00:12:22.307] Server  LOG     ✓ Compiled in 4ms
