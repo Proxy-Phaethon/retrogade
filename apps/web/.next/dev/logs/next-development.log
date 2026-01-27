@@ -1,20 +1,73 @@
-[00:00:01.412] Server  LOG     
-[00:00:01.412] Server  LOG       We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:01.412] Server  LOG       The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+[00:00:00.602] Server  LOG     ✓ Ready in 411ms
+[00:00:05.733] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
+[00:00:05.831] Server  ERROR   ⨯ Error: The default export is not a React Component in "/layout"
+[00:00:06.040] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/layout"
+[00:02:42.776] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:22.345] Server  LOG     ✓ Compiled in 17ms
+[00:06:07.770] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
+Module not found: Can't resolve '@/app/globals.css'
+  1 | import type { ReactNode } from "react";
+> 2 | import "@/app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function RootLayout({ children }: { children: ReactNode }) {
+  5 |   return (
 
-[00:00:01.412] Server  LOG       	- lib was set to dom,dom.iterable,esnext
-[00:00:01.412] Server  LOG       	- allowJs was set to true
-[00:00:01.412] Server  LOG       	- noEmit was set to true
-[00:00:01.412] Server  LOG       	- incremental was set to true
-[00:00:01.412] Server  LOG       	- include was set to ['next-env.d.ts', '.next/types/**/*.ts', '.next/dev/types/**/*.ts', '**/*.mts', '**/*.ts', '**/*.tsx']
-[00:00:01.412] Server  LOG       	- plugins was updated to add { name: 'next' }
-[00:00:01.412] Server  LOG       	- exclude was set to ['node_modules']
-[00:00:01.412] Server  LOG     
-[00:00:01.412] Server  LOG       The following mandatory changes were made to your tsconfig.json:
 
-[00:00:01.412] Server  LOG       	- esModuleInterop was set to true (requirement for SWC / babel)
-[00:00:01.412] Server  LOG       	- moduleResolution was set to node (to match webpack resolution)
-[00:00:01.412] Server  LOG       	- resolveJsonModule was set to true (to match webpack resolution)
-[00:00:01.412] Server  LOG     
-[00:00:01.483] Server  LOG     ✓ Ready in 1203ms
-[00:00:15.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:07.772] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
+Module not found: Can't resolve '@/app/globals.css'
+  1 | import type { ReactNode } from "react";
+> 2 | import "@/app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function RootLayout({ children }: { children: ReactNode }) {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:07.772] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
+Module not found: Can't resolve '@/app/globals.css'
+  1 | import type { ReactNode } from "react";
+> 2 | import "@/app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function RootLayout({ children }: { children: ReactNode }) {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:07.773] Server  ERROR   ⨯ ./apps/web/src/app/layout.tsx:2:1
+Module not found: Can't resolve '@/app/globals.css'
+  1 | import type { ReactNode } from "react";
+> 2 | import "@/app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function RootLayout({ children }: { children: ReactNode }) {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:06:07.805] Server  LOG     ✓ Compiled in 52ms
+[00:06:08.242] Browser ERROR   ./apps/web/src/app/layout.tsx:2:1
+Module not found: Can't resolve '@/app/globals.css'
+  1 | import type { ReactNode } from "react";
+> 2 | import "@/app/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function RootLayout({ children }: { children: ReactNode }) {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
